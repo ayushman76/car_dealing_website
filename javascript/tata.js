@@ -27,7 +27,7 @@ tata_car = () => {
         more: '+'
 
     }, {
-        img: 'image/Blue.png',
+        img: 'image/blue.png',
         Car_name: 'Tata Tiago',
         Car_modal: '2017',
         Car_price: '1.7L',
