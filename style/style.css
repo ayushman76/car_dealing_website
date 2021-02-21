@@ -34,6 +34,8 @@ header {
 nav {
     box-shadow: 15px 18px 13px 4px #8080800a;
 	 
+	     background: rgb(122 43 52 / 48%);
+    backdrop-filter: blur(9px);
 
 }
 
@@ -73,7 +75,7 @@ img {
 
 .my_btn {
     padding: 10px;
-    background: rgb(122 132 46);
+   background: rgb(1 0 5);
     color: rgb(255 255 255);
     border-radius: 6px;
     font-size: 20px;
@@ -117,7 +119,7 @@ img {
     /* top: 0; */
     right: 0;
     padding: 10px;
-   background: rgb(122 132 46);
+  background: rgb(1 0 5);
     color: rgb(255 255 255);
     bottom: 0;
     border-bottom-right-radius: 15px;
@@ -188,8 +190,7 @@ article{
     margin: 0 auto;
     right: 50px;
     left: 0px;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
+    
     text-align: center;
     backdrop-filter: blur(7px);
     z-index: 99999999999;
@@ -198,7 +199,7 @@ article{
 	height: 82px;
 }
     nav {
-		   background: rgb(122 131 47);
+		background: rgb(182 57 51);
     position: fixed;
     width: 100%;
     z-index: 9999999999999;
@@ -220,12 +221,12 @@ article{
         transform: rotate( -180deg);
     }
     .first {
-       border: 1px solid rgb(122 132 46);
+          border: 1px solid rgb(255 255 255);
         width: 15%;
         margin: 8px 0px;
     }
     .sec {
-        border: 1px solid rgb(122 132 46);
+           border: 1px solid rgb(255 255 255);
         width: 10%;
     }
     .dis {
