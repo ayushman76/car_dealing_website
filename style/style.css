@@ -165,7 +165,15 @@ article{
 		transition:0.5s;
 		
 }
-
+footer{
+	    background: rgb(0 0 0);
+    z-index: 9999999999999999999999;
+    /* opacity: 24; */
+    position: relative;
+}
+.my_footer>ul>li>a{
+	color:white!important;
+}
 @media(max-width:1024px) {
 	.my_products>img{
 	height: 100%!important;
